@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Cheap Flight Extension",
+  "version": "1.0",
+  "description": "This extention is useful for finding a cheap flight for your next adventure!",
+  "author": "Bertan Berker",
+  "browser_action": {
+    "default_icon": {
+        "16": "/images/airplane-icon.png",
+        "48": "/images/airplane-icon.png",
+        "128": "/images/airplane-icon.png"
+    },
+
+    "default_popup": "index.html",
+    "default_title": "Cheap Flight Finder"
+
+  },
+
+  "icons": {
+    "16": "/images/airplane-icon.png",
+    "48": "/images/airplane-icon.png",
+    "128": "/images/airplane-icon.png"
+  }
+}
